@@ -60,5 +60,15 @@
 // Создайте переменную age , присвойте значение с помощью метода  prompt() "Сколько вам лет?"
 // Результат вывести с помощью alert().
 
-let age = prompt("сколько вам лет?");
-alert(age);
+// let age = prompt("сколько вам лет?");
+// alert(age);
+
+// task 9
+
+const user = {
+    name: "Ann",
+    age: 30,
+    isAdmin: true
+}
+
+console.log(user);
