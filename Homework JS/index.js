@@ -10,5 +10,10 @@
 
 //task 2
 
-const yearReleaseFirstIPhone = 2007;
-alert(`год выпуска первого Айфона - ${yearReleaseFirstIPhone}`);
+// const yearReleaseFirstIPhone = 2007;
+// alert(`год выпуска первого Айфона - ${yearReleaseFirstIPhone}`);
+
+//task 3
+
+const creatorJsLanguage = "Брендан Эйх";
+alert(`Язык JavaScript создал ${creatorJsLanguage}`)
