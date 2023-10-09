@@ -79,4 +79,8 @@ user['city of residence'] = "Omsk";
 
 user.age = 31;
 
+//task 9.3
+
+delete user['city of residence'];
+
 console.log(user);
