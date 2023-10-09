@@ -15,5 +15,14 @@
 
 //task 3
 
-const creatorJsLanguage = "Брендан Эйх";
-alert(`Язык JavaScript создал ${creatorJsLanguage}`)
+// const creatorJsLanguage = "Брендан Эйх";
+// alert(`Язык JavaScript создал ${creatorJsLanguage}`);
+
+//task 4
+
+// Создайте две переменные 10 и 2. С помощью метода alert()
+//  выведите на экран их сумму, разность, произведение и частное (результат деления).
+
+let c = 10;
+let d = 2;
+alert(c+d);
