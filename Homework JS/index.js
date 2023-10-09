@@ -75,4 +75,8 @@ const user = {
 
 user['city of residence'] = "Omsk";
 
+// task 9.2
+
+user.age = 31;
+
 console.log(user);
