@@ -39,7 +39,18 @@
 //task 6
 //Даны переменные: a = 9 и b = 2. Найдите остаток от деления a на b и выведите результат на экран с помощью alert()
 
-let a = 9;
-let b = 2;
-let result = a % 2;
-alert(result);
+// let a = 9;
+// let b = 2;
+// let result = a % 2;
+// alert(result);
+
+//task 7
+
+let num = 1;
+// num += 5;
+// num -= 3;
+// num *= 7;
+// num /= 3;
+// num++;
+num--;
+alert(num);
