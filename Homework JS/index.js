@@ -71,4 +71,8 @@ const user = {
     isAdmin: true
 }
 
+// task 9.1
+
+user['city of residence'] = "Omsk";
+
 console.log(user);
