@@ -33,5 +33,6 @@
 // и выведите на экран с помощью метода alert().
 
 let e = 2;
-let result = 2 ** 5;
+let result = e ** 5;
 alert(result);
+
