@@ -46,11 +46,19 @@
 
 //task 7
 
-let num = 1;
+// let num = 1;
 // num += 5;
 // num -= 3;
 // num *= 7;
 // num /= 3;
 // num++;
-num--;
-alert(num);
+// num--;
+// alert(num);
+
+//task 8
+
+// Создайте переменную age , присвойте значение с помощью метода  prompt() "Сколько вам лет?"
+// Результат вывести с помощью alert().
+
+let age = prompt("сколько вам лет?");
+alert(age);
