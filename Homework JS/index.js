@@ -83,4 +83,10 @@ user.age = 31;
 
 delete user['city of residence'];
 
+//task 9.4
+
+let info = prompt('Какую информацию хотите узнать о пользователе?');
+
+alert(user[info]);
+
 console.log(user);
