@@ -65,28 +65,34 @@
 
 // task 9
 
-const user = {
-    name: "Ann",
-    age: 30,
-    isAdmin: true
-}
+// const user = {
+//     name: "Ann",
+//     age: 30,
+//     isAdmin: true
+// }
 
-// task 9.1
+// // task 9.1
 
-user['city of residence'] = "Omsk";
+// user['city of residence'] = "Omsk";
 
-// task 9.2
+// // task 9.2
 
-user.age = 31;
+// user.age = 31;
 
-//task 9.3
+// //task 9.3
 
-delete user['city of residence'];
+// delete user['city of residence'];
 
-//task 9.4
+// //task 9.4
 
-let info = prompt('Какую информацию хотите узнать о пользователе?');
+// let info = prompt('Какую информацию хотите узнать о пользователе?');
 
-alert(user[info]);
+// alert(user[info]);
 
-console.log(user);
+// console.log(user);
+
+//task 10
+
+let userName = prompt('как тебя зовут?');
+
+alert(`Привет, ${userName}`);
