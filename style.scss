@@ -17,6 +17,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 .top {
     height: 1024px;
     background-image: url(img/topback.jpg);
@@ -30,9 +35,8 @@ body {
         line-height: 78px;
         display: flex;
         align-items: center;
-        color: #FFFFFF;
+        color: #ffffff;
         padding-top: 217.1px;
-        padding-left: 120.22px;
     }
 
     &__text {
@@ -41,7 +45,6 @@ body {
         line-height: 32px;
         color: #FFFFFF;
         padding-top: 30px;
-        padding-left: 120.22px;
     }
 
     &__button {
@@ -50,16 +53,20 @@ body {
         width: 234.06px;
         height: 48.6px;
         border: none;
-        box-sizing: border-box;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        color: #FFFFFF;
+        box-sizing: border-box;     
         margin-top: 44px;
-        margin-left: 120px;
+        padding-left: 74.03px;
+        padding-top: 13.3px;
 
         &:hover {
             background: #EB443F;
+        }
+
+        &_text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
         }
     }
 }

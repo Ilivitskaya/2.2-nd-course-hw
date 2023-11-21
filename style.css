@@ -16,6 +16,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 .top {
   height: 1024px;
   background-image: url(img/topback.jpg);
@@ -29,9 +34,8 @@ body {
   line-height: 78px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 217.1px;
-  padding-left: 120.22px;
 }
 .top__text {
   font-weight: 300;
@@ -39,7 +43,6 @@ body {
   line-height: 32px;
   color: #FFFFFF;
   padding-top: 30px;
-  padding-left: 120.22px;
 }
 .top__button {
   background: #9C0332;
@@ -48,15 +51,18 @@ body {
   height: 48.6px;
   border: none;
   box-sizing: border-box;
+  margin-top: 44px;
+  padding-left: 74.03px;
+  padding-top: 13.3px;
+}
+.top__button:hover {
+  background: #EB443F;
+}
+.top__button_text {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
-  margin-top: 44px;
-  margin-left: 120px;
-}
-.top__button:hover {
-  background: #EB443F;
 }
 
 .game-box {
